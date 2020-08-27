@@ -1,0 +1,45 @@
+/* Position the navbar container inside the image */
+
+.container {
+    align-self: start;
+    margin: 0px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* The navbar */
+
+.topnav {
+    overflow: none;
+    background-color: rgb(53, 34, 34);
+    margin-top: 16px;
+}
+
+.logo {
+    height: 48px;
+    width: 80px;
+    border: 3px solid rgb(53, 34, 34);
+    background-color: transparent;
+    margin-top: 16px;
+    margin-left: 45px;
+}
+
+.NavbarIcons:hover{
+    background-color: rgb(196, 183, 201);
+    padding: 14px 16px;
+    cursor: pointer;
+    color: black;
+}
+
+/* Navbar links */
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
